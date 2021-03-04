@@ -25,9 +25,9 @@ i <- 3 #quantidade de grupos
 j <- 1
 #grupos
 
-g1 <- max_notas[c(j,j+4,n),]  #pos 5
-g2 <- max_notas[c(j+1,j+3,n-1),] # pos 4 
-g3 <- max_notas[c(j+2,j+5,n-2),] # pos 4 ou 6
+g1 <- max_notas[c(j,j+4,n),]
+g2 <- max_notas[c(j+1,j+3,n-1),] 
+g3 <- max_notas[c(j+2,j+5,n-2),]
 
 g1 #grupo 1
 g2 #grupo 2
